@@ -1,19 +1,25 @@
+@font-face {
+  font-family: 'Work Sans Regular';
+  src: url("/assets/fonts/WorkSans-Black.woff") format("woff"), url("/assets/fonts/WorkSans-Regular.woff") format("woff");
+  font-style: normal;
+  font-weight: bold;
+}
+
 * {
-    margin: 0;
-    padding: 0;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
-header p {
-    background: black;
-    width: 100%;
-    height: auto;
+body {
+  font-family: 'Work Sans Regular', sans-serif;
+  background-image: url("../img/background.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+  color: white;
 }
-
-main section div p {
-    background: red;
-}
-
-
 /*# sourceMappingURL=style.css.map */

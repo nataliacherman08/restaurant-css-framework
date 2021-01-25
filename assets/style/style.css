@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+header p {
+    background: black;
+    width: 100%;
+    height: auto;
+}
+
+main section div p {
+    background: red;
+}
+
+
+/*# sourceMappingURL=style.css.map */

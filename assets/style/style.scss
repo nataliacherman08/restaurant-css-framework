@@ -43,15 +43,25 @@ body {
             margin-bottom: 50px;
         }
     }
+    .txt {
+        font-size: 50px;
+    }
 }
 
 
 /* Small devices (tablets, 768px and up) */
 
 @media (min-width: 768px) {
-    .container-fluid {
-        width: 100%;
-        font-size: 40px;
+    .wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .zoom img {
+            width: 100%;
+        }
+    }
+    .txt {
+        font-size: 50px;
     }
 }
 
@@ -59,9 +69,13 @@ body {
 /* Medium devices (desktops, 992px and up) */
 
 @media (min-width: 992px) {
-    .container-fluid {
-        width: 100%;
-        font-size: 40px;
+    .wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .txt {
+        font-size: 50px;
     }
 }
 

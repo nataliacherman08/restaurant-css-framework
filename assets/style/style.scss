@@ -1,9 +1,9 @@
-@font-face {
+/*@font-face {
     font-family: 'Work Sans Regular';
     src: url('/assets/fonts/WorkSans-Black.woff') format('woff'), url('/assets/fonts/WorkSans-Regular.woff') format('woff');
     font-style: normal;
     font-weight: bold;
-}
+}*/
 
 * {
     margin: 0;
@@ -12,7 +12,7 @@
 }
 
 body {
-    font-family: 'Work Sans Regular', sans-serif;
+    /* font-family: 'Work Sans Regular', sans-serif;*/
     background-image: url('../img/background.jpg');
     background-position: center center;
     background-repeat: no-repeat;
@@ -22,6 +22,59 @@ body {
     color: white;
 }
 
-.gallery h1 {
-    text-align: center;
+.zoom img {
+    opacity: 0.5;
+    transform: scale(1);
+    transition: .3s ease-in-out;
+}
+
+.zoom img:hover {
+    opacity: 1;
+    transform: scale(1.2);
+}
+
+@media (min-width: 375px) {
+    .wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .zoom {
+            width: 75%;
+            margin-bottom: 50px;
+        }
+    }
+}
+
+
+/* Small devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {
+    .container-fluid {
+        width: 100%;
+        font-size: 40px;
+    }
+}
+
+
+/* Medium devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+    .container-fluid {
+        width: 100%;
+        font-size: 40px;
+    }
+}
+
+
+/* Large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+    .container-fluid {
+        width: 100%;
+        font-size: 40px;
+        .zoom {
+            width: 100%;
+            height: auto;
+        }
+    }
 }

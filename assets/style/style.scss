@@ -27,19 +27,6 @@ body {
     color: white;
 }
 
-body {
-    background: {
-        image: url(https://images4.alphacoders.com/113/thumb-1920-113576.jpg);
-        repeat: no-repeat;
-        size: cover;
-        attachment: fixed;
-        position: center;
-    }
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Caviar Dreams';
-}
-
 .logo {
     width: 50px;
 }
@@ -62,6 +49,17 @@ a {
 .zoom img:hover {
     opacity: 1;
     transform: scale(1.2);
+}
+
+
+/* Color page*/
+
+.pagination>li>a,
+.pagination>li>span {
+    opacity: 1;
+    background: none;
+    border: none;
+    color: white;
 }
 
 @media (max-width: 575.98px) {

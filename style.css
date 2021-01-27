@@ -1,8 +1,52 @@
+@font-face {
+  font-family: 'Caviar Dreams';
+  font-size: normal;
+  font-weight: normal;
+  src: url("assets/fonts/caviarDreams/CaviarDreams.ttf") format("truetype"), url("assets/fonts/caviarDreams/CaviarDreams_Bold.ttf") format("truetype"), url("assets/fonts/caviarDreams/CaviarDreams_BoldItalic.ttf") format("truetype"), url("assets/fonts/caviarDreams/CaviarDreams_Italic.ttf") format("truetype");
+}
+
 body {
-  background-image: url(https://images4.alphacoders.com/594/thumb-1920-594600.jpg);
+  background-image: url(https://images4.alphacoders.com/113/thumb-1920-113576.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Caviar Dreams';
+}
+
+.logo {
+  width: 60px;
+}
+
+ul {
+  margin: auto;
+}
+
+a {
+  color: #fff;
+  font-size: 1.3em;
+  margin-right: 1em;
+}
+
+a:hover {
+  color: #c2003c;
+}
+
+.jumbotron {
+  background-image: url("assets/sushi.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: #000;
+  border-radius: 0px !important;
+  margin-top: 90px;
+}
+
+.jumbotron .intro {
+  padding-top: 160px;
+  background-color: rgba(255, 255, 255, 0.6);
+  line-height: 1.5em;
 }
 /*# sourceMappingURL=style.css.map */

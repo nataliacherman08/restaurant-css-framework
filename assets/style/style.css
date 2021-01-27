@@ -1,111 +1,76 @@
-/*@font-face {
-    font-family: 'Work Sans Regular';
-    src: url('/assets/fonts/WorkSans-Black.woff') format('woff'), url('/assets/fonts/WorkSans-Regular.woff') format('woff');
-    font-style: normal;
-    font-weight: bold;
-}*/
+@font-face {
+  font-family: 'Caviar Dreams';
+  font-size: normal;
+  font-weight: normal;
+  src: url("assets/fonts/caviarDreams/CaviarDreams.ttf") format("truetype"), url("assets/fonts/caviarDreams/CaviarDreams_Bold.ttf") format("truetype"), url("assets/fonts/caviarDreams/CaviarDreams_BoldItalic.ttf") format("truetype"), url("assets/fonts/caviarDreams/CaviarDreams_Italic.ttf") format("truetype");
+}
 
 * {
-    margin: 0;
-    padding: 0;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
-    /* font-family: 'Work Sans Regular', sans-serif;*/
-    background-image: url("../img/background.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-color: #464646;
-    color: white;
+  font-family: 'Work', sans-serif;
+  background-image: url("../img/background.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+  color: white;
+}
+
+body {
+  background-image: url(https://images4.alphacoders.com/113/thumb-1920-113576.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Caviar Dreams';
+}
+
+.logo {
+  width: 50px;
+}
+
+ul {
+  margin: auto;
+}
+
+a {
+  font-size: 1em;
+  margin-right: 1em;
 }
 
 .zoom img {
-    opacity: 0.5;
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    -webkit-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
+  opacity: 0.5;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
 }
 
 .zoom img:hover {
-    opacity: 1;
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
+  opacity: 1;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
-@media (min-width: 375px) {
-    .wrapper {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
-    }
-    .wrapper .zoom {
-        width: 75%;
-        margin-bottom: 50px;
-    }
-    .txt {
-        font-size: 25px;
-        padding-left: 30px;
-    }
+@media (max-width: 575.98px) {
+  .zoom {
+    margin-bottom: 50px;
+    margin-top: 10px;
+  }
 }
 
-
-/* Small devices (tablets, 768px and up) */
-
-@media (min-width: 768px) {
-    .wrapper {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
-    }
-    .wrapper .zoom img {
-        width: 100%;
-    }
-    .txt {
-        font-size: 50px;
-    }
+@media (min-width: 575.98px) and (max-width: 768px) {
+  .galleryWrapper {
+    margin-top: 15rem;
+  }
 }
-
-
-/* Medium devices (desktops, 992px and up) */
-
-@media (min-width: 992px) {
-    .wrapper {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        justify-content: center;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
-    }
-    .txt {
-        font-size: 50px;
-    }
-}
-
-
-/* Large devices (large desktops, 1200px and up) */
-
-@media (min-width: 1200px) {}
-
-
 /*# sourceMappingURL=style.css.map */

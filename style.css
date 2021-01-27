@@ -25,13 +25,8 @@ ul {
 }
 
 a {
-  color: #fff;
   font-size: 1em;
   margin-right: 1em;
-}
-
-a:hover {
-  color: #c2003c;
 }
 
 .jumbotron {
@@ -41,7 +36,7 @@ a:hover {
   height: 100vh;
   color: #000;
   border-radius: 0px !important;
-  margin-top: 100px;
+  margin-top: 70px;
 }
 
 .jumbotron .intro {

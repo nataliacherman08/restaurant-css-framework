@@ -40,12 +40,8 @@ ul
 
 a
 {
-    color: $white;
     font-size: 1em;
     margin-right: 1em;
-    &:hover {
-        color: $red;
-    }
 }
 
 .jumbotron
@@ -58,7 +54,7 @@ a
     height: 100vh;
     color: $black;
     border-radius: 0px!important;
-    margin-top: 100px;
+    margin-top: 70px;
 }
 
 .jumbotron

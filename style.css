@@ -1,4 +1,8 @@
 body {
-  text-align: center;
+  background-image: url(https://images4.alphacoders.com/594/thumb-1920-594600.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
 }
 /*# sourceMappingURL=style.css.map */

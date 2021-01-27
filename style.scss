@@ -30,7 +30,7 @@ body{
 
 .logo
 {
-    width: 60px;
+    width: 50px;
 }
 
 ul
@@ -41,7 +41,7 @@ ul
 a
 {
     color: $white;
-    font-size: 1.3em;
+    font-size: 1em;
     margin-right: 1em;
     &:hover {
         color: $red;
@@ -58,13 +58,14 @@ a
     height: 100vh;
     color: $black;
     border-radius: 0px!important;
-    margin-top: 90px;
+    margin-top: 100px;
 }
 
 .jumbotron
 {
     .intro {
-        padding-top: 160px;
+        padding-top: 100px;
+        padding-bottom: 50px;
         background-color: rgba(255, 255, 255, 0.6);
         line-height: 1.5em;
     }

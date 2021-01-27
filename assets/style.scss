@@ -1,4 +1,4 @@
-body
+/*body
 {
     background-image: url("https://images4.alphacoders.com/113/thumb-1920-113576.jpg");
     background-repeat: no-repeat;
@@ -84,3 +84,95 @@ a
         line-height: 1.5em;
     }
 }
+
+@font-face
+{
+    font: {
+        family: 'Caviar Dreams';
+        size: normal;
+        weight: normal;
+    }
+    src:url('assets/fonts/caviarDreams/CaviarDreams.ttf') format('truetype'),
+        url('assets/fonts/caviarDreams/CaviarDreams_Bold.ttf') format('truetype'),
+        url('assets/fonts/caviarDreams/CaviarDreams_BoldItalic.ttf') format('truetype'),
+        url('assets/fonts/caviarDreams/CaviarDreams_Italic.ttf') format('truetype');
+}
+
+$red: #c2003c;
+$white: #fff;
+$black: #000;
+*/
+
+@font-face
+{
+    font: {
+        family: 'Caviar Dreams';
+        size: normal;
+        weight: normal;
+    }
+    src:url('assets/fonts/caviarDreams/CaviarDreams.ttf') format('truetype'),
+        url('assets/fonts/caviarDreams/CaviarDreams_Bold.ttf') format('truetype'),
+        url('assets/fonts/caviarDreams/CaviarDreams_BoldItalic.ttf') format('truetype'),
+        url('assets/fonts/caviarDreams/CaviarDreams_Italic.ttf') format('truetype');
+}
+
+
+$red: #c2003c;
+$white: #fff;
+$black: #000;
+
+body
+{
+    background-image: url("https://images4.alphacoders.com/113/thumb-1920-113576.jpg%22");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+.logo
+{
+    width: 50px;
+}
+
+ul
+{
+    margin: auto;
+}
+
+a
+{
+    font-size: 1em;
+    margin-right: 1em;
+}
+
+//NAVBAR 
+
+//.navbar
+//{
+//    position: absolute;
+//}
+
+.row
+{
+    background-color: #000000 ;
+    opacity: 0.5;
+    font-size: 25px;
+    color: #fff;
+}
+
+.logo
+{
+    width: 200px ;
+    height: 200px;
+}
+
+.text-center
+{
+    text-align: center;
+}
+
+
+

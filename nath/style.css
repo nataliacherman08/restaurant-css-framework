@@ -1,34 +1,19 @@
-body {
-  background-image: url("https://images4.alphacoders.com/113/thumb-1920-113576.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  color: #fff;
-}
-
-.row {
-  background-color: #000000;
-  opacity: 0.5;
-  font-size: 25px;
-  color: #fff;
-}
-
-.logo {
-  width: 200px;
-  height: 200px;
-}
-
-.text-center {
-  text-align: center;
-}
-
 @font-face {
   font-family: 'Caviar Dreams';
   font-size: normal;
   font-weight: normal;
   src: url("assets/fonts/caviarDreams/CaviarDreams.ttf") format("truetype"), url("assets/fonts/caviarDreams/CaviarDreams_Bold.ttf") format("truetype"), url("assets/fonts/caviarDreams/CaviarDreams_BoldItalic.ttf") format("truetype"), url("assets/fonts/caviarDreams/CaviarDreams_Italic.ttf") format("truetype");
+}
+
+body {
+  background-image: url(https://images4.alphacoders.com/113/thumb-1920-113576.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Caviar Dreams';
 }
 
 .logo {

@@ -1,29 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Restaurent page</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-        <link rel="stylesheet" href="restaurant.css">
-        
+        <script
+			  src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+			  integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+              crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script> -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name= "description" content="responsive exercices: breakpoints">
+        <link rel="stylesheet" href="restaurant.css"/>
+        <title>Restaurant Page</title>
     </head>
+
     <body>
-<!--navbar-->
+        <!--HEADER-->
         <header>
-            <nav class="navbar bg-light">
-                <div class="list-group-vertical-sm list-group-horizontal">
-                    <a href="" class="col-sm-1 list-group-flush container offset-1">Home</a>
-                    <a href="" class="col-sm-1 list-group-flush container offset-1">Menu</a>
-                    <a href="" class="col-sm-1 list-group-flush container offset-1">Pictures</a>
-                    <a href="" class="col-sm-1 list-group-flush container offset-1">Restaurant</a>
-                    <a href="" class="col-sm-1 list-group-flush container offset-1">Contact</a>
-                </div>            
+            <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img class="logo" src="https://cdn.discordapp.com/attachments/802185139543212086/803938785493647410/Fichier_3.png" alt="logo" /></a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContentAltMarkup"
+                    aria-controls="navbarSupportedContentAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContentAltMarkup">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">HOME</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">MENU</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">PICTURES</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">RESTAURANT</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">CONTACT</a>
+                        </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
         </header>
+        
+<!-- Main -->
         <main class="container">
-            <div class="row">
-                <h1 class="col-8 container">The story of the restaurant</h1>
+
+            <!--the sotry Title-->
+
+            <div class="row" id="goTitle">
+                <h1 class="col-10 container">The Gohan San's story</h1>
             </div>
+
+            <!-- Logo -->
+
+            <div class="row" id="goLogo">
+                <img class="col-3 container" src="https://cdn.discordapp.com/attachments/802185139543212086/803938785493647410/Fichier_3.png" alt="Gohan San's Logo" width="100%">
+            </div>
+
+            <!-- The story -->
+
+            <div class="row">
+                <p class="col-8 container">The Gohan San is a sushi restaurant located in the center of the beautiful Belgium's capital, Brussels.The restaurant has been at the service of taste and quality since its creation in 2012, where authenticity, hospitality and know-how have never ceased to combine over time.
+                </p>
+                <p class="col-8 container">The restaurant Gohan San offers authentic and modern Japanese cuisine, the chef revisits traditional dishes combining flavor, freshness, respect for the product and presentation. These are the assets to offer you a pleasant moment of taste.</p>
+                <p class="col-8 container">Our air-conditioned room has a capacity of 50 places, for your banquets and receptions and for all other reservations.</p>
+            </div>
+
         </main>
     
     </body>

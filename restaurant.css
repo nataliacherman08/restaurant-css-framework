@@ -1,25 +1,38 @@
 @font-face {
-  font-family: 'Work Sans Regular';
-  src: url("assets/fonts/workSans/WorkSans-Black.woff") format("woff"), url("assets/fonts/workSans/WorkSans-Bold.woff") format("woff"), url("assets/fonts/workSans/WorkSans-ExtraBold.woff") format("woff"), url("assets/fonts/workSans/WorkSa/asapns-ExtraLight.woff") format("woff"), url("assets/fonts/workSans/WorkSans-Light.woff") format("woff"), url("assets/fonts/workSans/WorkSans-Medium.woff") format("woff"), url("assets/fonts/workSans/WorkSans-Regular.woff") format("woff"), url("assets/fonts/workSans/WorkSans-SemiBold.woff") format("woff"), url("assets/fonts/workSans/WorkSans-Thin.woff") format("woff");
-  font-style: normal;
+  font-family: 'Caviar Dreams';
+  font-size: normal;
   font-weight: normal;
+  src: url("assets/fonts/caviarDreams/CaviarDreams.ttf") format("truetype"), url("assets/fonts/caviarDreams/CaviarDreams_Bold.ttf") format("truetype"), url("assets/fonts/caviarDreams/CaviarDreams_BoldItalic.ttf") format("truetype"), url("assets/fonts/caviarDreams/CaviarDreams_Italic.ttf") format("truetype");
 }
 
-@font-face {
-  font-family: 'Asap';
-  src: url("assets/fonts/asap/Asap-Bold.woff") format("woff"), url("assets/fonts/asap/Asap-BoldItalic.woff") format("woff"), url("assets/fonts/asap/Asap-Italic.woff") format("woff"), url("assets/fonts/asap/Asap-Medium.woff") format("woff"), url("assets/fonts/asap/Asap-MediumItalic.woff") format("woff"), url("assets/fonts/asap/Asap-Regular.woff") format("woff"), url("assets/fonts/asap/Asap-SemiBold.woff") format("woff"), url("assets/fonts/asap/Asap-SemiBoldItalic.woff") format("woff");
-  font-style: normal;
-  font-weight: normal;
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-image: url(https://images5.alphacoders.com/379/thumb-1920-379572.png);
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Caviar Dreams';
+}
+
+.logo {
+  width: 50px;
+}
+
+ul {
+  margin: auto;
+}
+
+a {
+  font-size: 1em;
+  margin-right: 1em;
 }
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
-  body {
-    background-image: url(https://images4.alphacoders.com/594/thumb-1920-594600.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
+  #goTitle {
+    padding-top: 3em;
   }
   a {
     color: black;
@@ -30,11 +43,67 @@
     color: #c2003c;
   }
   p {
-    background-color: red;
-    font-size: 1em;
+    font-size: 2.5vh;
+    color: white;
   }
   h1 {
+    padding-top: 1em;
     text-align: center;
+  }
+  img {
+    padding: 0.5em;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  /* For mobile phones: */
+  #goTitle {
+    padding-top: 3em;
+  }
+  a {
+    color: black;
+    font-family: Asap, Arial, sans-serif;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #c2003c;
+  }
+  p {
+    font-size: 2.5vh;
+    color: white;
+  }
+  h1 {
+    padding-top: 1em;
+    text-align: center;
+  }
+  img {
+    padding: 0.5em;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  /* For mobile phones: */
+  #goTitle {
+    padding-top: 3em;
+  }
+  a {
+    color: black;
+    font-family: Asap, Arial, sans-serif;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #c2003c;
+  }
+  p {
+    font-size: 2.5vh;
+    color: white;
+  }
+  h1 {
+    padding-top: 1em;
+    text-align: center;
+  }
+  img {
+    padding: 0.5em;
   }
 }
 /*# sourceMappingURL=restaurant.css.map */

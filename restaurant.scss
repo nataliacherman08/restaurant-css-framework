@@ -1,0 +1,78 @@
+// FONT 
+@font-face 
+{
+    font-family: 'Work Sans Regular';
+    src:url('assets/fonts/workSans/WorkSans-Black.woff') format('woff'),
+        url('assets/fonts/workSans/WorkSans-Bold.woff') format('woff'),
+        url('assets/fonts/workSans/WorkSans-ExtraBold.woff') format('woff'),
+        url('assets/fonts/workSans/WorkSa/asapns-ExtraLight.woff') format('woff'),
+        url('assets/fonts/workSans/WorkSans-Light.woff') format('woff'),
+        url('assets/fonts/workSans/WorkSans-Medium.woff') format('woff'),
+        url('assets/fonts/workSans/WorkSans-Regular.woff') format('woff'),
+        url('assets/fonts/workSans/WorkSans-SemiBold.woff') format('woff'),
+        url('assets/fonts/workSans/WorkSans-Thin.woff') format('woff');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face
+{
+    font-family: 'Asap';
+    src:url('assets/fonts/asap/Asap-Bold.woff') format('woff'),
+        url('assets/fonts/asap/Asap-BoldItalic.woff') format('woff'),
+        url('assets/fonts/asap/Asap-Italic.woff') format('woff'),
+        url('assets/fonts/asap/Asap-Medium.woff') format('woff'),
+        url('assets/fonts/asap/Asap-MediumItalic.woff') format('woff'),
+        url('assets/fonts/asap/Asap-Regular.woff') format('woff'),
+        url('assets/fonts/asap/Asap-SemiBold.woff') format('woff'),
+        url('assets/fonts/asap/Asap-SemiBoldItalic.woff') format('woff');
+    font-style: normal;
+    font-weight: normal;
+} 
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
+// SASS options
+$font-title : Asap, Arial , sans-serif;
+$display-font-sizes: (
+  1: 5rem,
+  2: 4.5rem,
+  3: 4rem,
+  4: 3.5rem,
+  5: 3rem,
+  6: 2.5rem
+);
+
+@media only screen and (max-width: 768px) {
+
+    /* For mobile phones: */
+
+    body{
+        background-image: url(https://images4.alphacoders.com/594/thumb-1920-594600.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+    }
+    a{
+        color: black;
+        font-family: $font-title;
+        text-decoration:none;
+        &:hover{
+            color: #c2003c;
+        }
+    }
+    p{
+        background-color: red;
+        font-size: 1em;
+    }
+    h1{
+        text-align: center;
+    }
+}
+

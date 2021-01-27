@@ -6,7 +6,7 @@
 }
 
 body {
-  background-image: url(https://images4.alphacoders.com/113/thumb-1920-113576.jpg);
+  background-image: url("https://images5.alphacoders.com/379/thumb-1920-379572.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -29,20 +29,36 @@ a {
   margin-right: 1em;
 }
 
-.jumbotron {
-  background-image: url("assets/sushi.jpg");
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-  color: #000;
-  border-radius: 0px !important;
-  margin-top: 70px;
+/*.first
+{
+    padding: 400px 400px 150px 400px;
+    background-color: rgba(255, 255, 255, 0.6);
+    line-height: 15em;
+    color: $black;
+
 }
 
-.jumbotron .intro {
-  padding-top: 100px;
-  padding-bottom: 50px;
-  background-color: rgba(255, 255, 255, 0.6);
-  line-height: 1.5em;
-}
+#logo
+{
+ margin-bottom:  100px;
+}*/
+/*.jumbotron
+{
+    background: {
+        image: url('assets/sushi.jpg');
+        size: cover;
+        position: center;
+    }
+    height: 100vh;
+    color: $black;
+    border-radius: 0px!important;
+    margin-top: 70px;
+
+    .intro {
+        padding-top: 100px;
+        padding-bottom: 50px;
+        background-color: rgba(255, 255, 255, 0.6);
+        line-height: 1.5em;
+    }
+}*/
 /*# sourceMappingURL=style.css.map */

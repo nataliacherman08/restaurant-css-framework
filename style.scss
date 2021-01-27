@@ -17,7 +17,7 @@ $black: #000;
 
 body{
     background: {
-        image: url(https://images4.alphacoders.com/113/thumb-1920-113576.jpg);
+        image: url('https://images5.alphacoders.com/379/thumb-1920-379572.png');
         repeat: no-repeat;
         size: cover;
         attachment: fixed;
@@ -28,6 +28,7 @@ body{
     font-family: 'Caviar Dreams';
 }
 
+//NAV
 .logo
 {
     width: 50px;
@@ -44,7 +45,22 @@ a
     margin-right: 1em;
 }
 
-.jumbotron
+
+/*.first
+{
+    padding: 400px 400px 150px 400px;
+    background-color: rgba(255, 255, 255, 0.6);
+    line-height: 15em;
+    color: $black;
+
+}
+
+#logo
+{
+ margin-bottom:  100px;
+}*/
+
+/*.jumbotron
 {
     background: {
         image: url('assets/sushi.jpg');
@@ -55,14 +71,12 @@ a
     color: $black;
     border-radius: 0px!important;
     margin-top: 70px;
-}
 
-.jumbotron
-{
     .intro {
         padding-top: 100px;
         padding-bottom: 50px;
         background-color: rgba(255, 255, 255, 0.6);
         line-height: 1.5em;
     }
-}
+}*/
+

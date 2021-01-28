@@ -24,7 +24,7 @@ body
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    color: #fff;
+    color: $white;
 }
 
 //NAV
@@ -45,7 +45,7 @@ a
 }
 
 
-.menu
+/*.menu
 {
     background-color: #000000 ;
     opacity: 0.5;
@@ -73,15 +73,22 @@ li
     list-style: none ;
 }
 
-footer
-{
-    color: black;
-}
 
 .tittle-menu
 {
     font-weight: 100;
     font-size: 35px;
+}*/
+
+//MENU
+.container
+{
+    margin-top: 50px;
+}
+
+.card-columns 
+{
+    column-count: 1;
 }
 
 .socialNetworks
@@ -89,7 +96,32 @@ footer
     width: 50px;
 }
 
+.pancarte
+{
+    width: 50px;
+}
+
+.ramen
+{
+    width: 200px;
+}
+.card-body
+{
+    text-align: center;
+}
+
+li
+{
+    list-style-type: none;
+    line-height: 3em;
+}
+
 //FOOTER
+footer
+{
+    color: black;
+}
+
 .linkFooter 
 {
     text-decoration: none;

@@ -68,19 +68,27 @@ a
 }
 
 //CAROUSELS
+
 .promotions
 {
     background-color: rgba(0, 0, 0, 0.7);
     border-top: 5px solid $red;
     border-bottom: 5px solid $red;
     color: $white;
-    padding: 40px 40px 50px 60px;
+    padding: 50px 0 50px 0;
+}
+
+.titrePromo
+{
+    margin-bottom: 50px;
 }
 
 .aGallery
 {
     text-decoration: none;
     color: $white;
+    margin-top: 50px;
+    
     &:hover {
         color: $red;
     }

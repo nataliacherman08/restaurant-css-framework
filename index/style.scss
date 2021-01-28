@@ -71,8 +71,10 @@ a
 .promotions
 {
     background-color: rgba(0, 0, 0, 0.7);
+    border-top: 5px solid $red;
+    border-bottom: 5px solid $red;
     color: $white;
-    padding: 40px 60px 50px 40px;
+    padding: 40px 40px 50px 60px;
 
 }
 

@@ -29,9 +29,6 @@ a {
   margin-right: 1em;
 }
 
-/* @media only screen and (max-width: 768px) {
-
-/* For mobile phones: */
 #goTitle {
   padding-top: 3em;
 }
@@ -46,10 +43,9 @@ a:hover {
 }
 
 p {
-  font-size: 2.5vh;
+  font-size: 1.3em;
   color: white;
   padding-top: 3em;
-  min-width: 1em;
 }
 
 h1 {
@@ -70,10 +66,10 @@ h1 {
   padding: 0.5em;
   width: 25em;
   opacity: 0.5;
-  -webkit-transition: width 2s;
-  transition: width 2s;
-  -webkit-transition: opacity 2s;
-  transition: opacity 2s;
+  -webkit-transition: width;
+  transition: width;
+  -webkit-transition: opacity 900ms;
+  transition: opacity 900ms;
 }
 
 #pics:hover {
@@ -81,59 +77,24 @@ h1 {
   opacity: 1;
 }
 
-/* @media only screen and (max-width: 992px) {
-
-    /* For mobile phones: */
-/*#goTitle{
-        padding-top: 3em;
-    }
-    
-    a{
-        color: black;
-        font-family: $font-title;
-        text-decoration:none;
-        &:hover{
-            color: #c2003c;
-        }
-    }
-    p{
-        font-size: 2.5vh;
-        color: white;
-    }
-    h1{
-        padding-top: 1em;
-        text-align: center;
-    }
-    img{
-        padding: 0.5em;
-    }
+@media only screen and (max-width: 768px) {
+  p {
+    font-size: 1em;
+  }
+  #pics {
+    margin-top: 1em;
+    margin-bottom: 3em;
+    padding: 0.5em;
+    width: 25em;
+    opacity: 1;
+    -webkit-transition: width;
+    transition: width;
+    -webkit-transition: opacity 900ms;
+    transition: opacity 900ms;
+  }
+  #pics:hover {
+    width: 25em;
+    opacity: 1;
+  }
 }
-
-// @media only screen and (max-width: 1200px) {
-
-    /* For mobile phones: */
-/* #goTitle{
-        padding-top: 3em;
-    }
-    
-    a{
-        color: black;
-        font-family: $font-title;
-        text-decoration:none;
-        &:hover{
-            color: #c2003c;
-        }
-    }
-    p{
-        font-size: 2.5vh;
-        color: white;
-    }
-    h1{
-        padding-top: 1em;
-        text-align: center;
-    }
-    img{
-        padding: 0.5em;
-    }
-    }) */
 /*# sourceMappingURL=restaurant.css.map */

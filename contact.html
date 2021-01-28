@@ -11,24 +11,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name= "description" content="responsive exercices: breakpoints">
         <link rel="stylesheet" href="contact.css" />
+        <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" />-->
         <title>Nom du resto</title>
     </head>
-    //NAV
-    .logo
-    {
-        width: 50px;
-    }
-    
-    ul
-    {
-        margin: auto;
-    }
-    
-    a
-    {
-        font-size: 1em;
-        margin-right: 1em;
-    }
+
     <body>
         <!--HEADER-->
         <header>
@@ -71,10 +57,37 @@
 
         <!--FORMS-->
         
-        <div class="container">
+        <div class="container contact-form">
             <h1>Contact us</h1>
             <hr />
+            <div class="row">
+                <div class="col-md-6">
+                    <address>Rue de l'Abdication 41, Brussels 1000</address>
+                    <p>Email: gohan-san@gmail.com</p>
+                    <p>Phone Number: 065/80.24.63</p>
+                </div>
 
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label>Name</label>
+                        <input type="text" class="form-control">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="text" class="form-control">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Message</label>
+                        <textarea class="form-control" rows="6"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <button id="form-button" type="button" class="btn btn-light btn-block">Send</button>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <!--FOOTER-->

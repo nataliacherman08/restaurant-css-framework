@@ -141,7 +141,7 @@ a {
   opacity: 0.5;
   font-size: 25px;
   color: #fff;
-  margin-top: 20px;
+  margin-top: 75px;
   width: 100%;
 }
 
@@ -162,5 +162,9 @@ li {
 
 footer {
   color: black;
+}
+
+.tittle-menu {
+  text-decoration: underline;
 }
 /*# sourceMappingURL=style.css.map */

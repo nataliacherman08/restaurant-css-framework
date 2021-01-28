@@ -151,9 +151,9 @@ a {
 
 .sushi {
   width: 100%;
-  opacity: 1;
-  position: absolute;
-  bottom: 700px;
+  opacity: 0.5;
+  position: -webkit-sticky;
+  position: sticky;
 }
 
 li {
@@ -165,6 +165,7 @@ footer {
 }
 
 .tittle-menu {
-  text-decoration: underline;
+  font-weight: 100;
+  font-size: 50px;
 }
 /*# sourceMappingURL=style.css.map */

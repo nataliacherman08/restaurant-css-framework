@@ -77,6 +77,10 @@ h1 {
   opacity: 1;
 }
 
+.socialNetworks {
+  width: 30px;
+}
+
 @media only screen and (max-width: 768px) {
   p {
     font-size: 1em;

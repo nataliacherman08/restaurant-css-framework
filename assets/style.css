@@ -168,7 +168,7 @@ a {
   width: 100%;
   opacity: 01;
   position: absolute;
-  top: 700px;
+  bottom: 700px;
 }
 
 li {

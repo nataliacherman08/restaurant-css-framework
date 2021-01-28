@@ -96,6 +96,13 @@ li
     width: 50px;
 }
 
+
+//MENU
+.section
+{
+    margin-top: 90px;
+}
+
 .pancarte
 {
     width: 50px;
@@ -105,9 +112,10 @@ li
 {
     width: 200px;
 }
-.card-body
+
+.card-columns
 {
-    text-align: center;
+    column-count: 2;
 }
 
 li

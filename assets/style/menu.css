@@ -75,6 +75,10 @@ li
   width: 50px;
 }
 
+.section {
+  margin-top: 90px;
+}
+
 .pancarte {
   width: 50px;
 }
@@ -83,8 +87,9 @@ li
   width: 200px;
 }
 
-.card-body {
-  text-align: center;
+.card-columns {
+  -webkit-column-count: 2;
+          column-count: 2;
 }
 
 li {

@@ -153,16 +153,14 @@ a {
   width: 400px;
   height: 400px;
   position: absolute;
-  top: 150px;
-  left: 650px;
+  top: 50px;
+  left: 600px;
 }
 
-/*.sushi
-{
-    width: 200px;
-    height: 200px;
-    position: absolute;
-    top: 150px;
-    left: 550px;
-}*/
+.sushi {
+  width: 100%;
+  opacity: 0.5;
+  position: absolute;
+  top: 700px;
+}
 /*# sourceMappingURL=style.css.map */

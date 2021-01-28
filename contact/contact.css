@@ -1,0 +1,59 @@
+@font-face {
+  font-family: 'Caviar Dreams';
+  font-size: normal;
+  font-weight: normal;
+  src: url("../assets/fonts/CaviarDreams.ttf") format("truetype"), url("../assets/fonts/CaviarDreams_Bold.ttf") format("truetype"), url("../assets/fonts/CaviarDreams_BoldItalic.ttf") format("truetype"), url("../assets/fonts/CaviarDreams_Italic.ttf") format("truetype");
+}
+
+body {
+  background-image: url("https://images5.alphacoders.com/379/thumb-1920-379572.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Caviar Dreams';
+  color: #000;
+}
+
+.fond {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding-top: 20px;
+}
+
+.logo {
+  width: 50px;
+}
+
+ul {
+  margin: auto;
+}
+
+a {
+  font-size: 1em;
+  margin-right: 1em;
+}
+
+.contact-form {
+  margin-top: 150px;
+  margin-bottom: 150px;
+  padding: 30px 70px 240px 70px;
+  background-image: url("https://images7.alphacoders.com/882/thumb-1920-882431.jpg");
+  background-size: cover;
+  color: #fff;
+}
+
+#form-button {
+  margin-top: 10px;
+}
+
+.linkFooter {
+  text-decoration: none;
+}
+
+.socialNetworks {
+  width: 30px;
+}
+/*# sourceMappingURL=contact.css.map */

@@ -52,12 +52,17 @@ a {
   border-top: 5px solid #c2003c;
   border-bottom: 5px solid #c2003c;
   color: #fff;
-  padding: 150px 100px 100px 100px;
+  padding: 50px 0 50px 0;
+}
+
+.titrePromo {
+  margin-bottom: 50px;
 }
 
 .aGallery {
   text-decoration: none;
   color: #fff;
+  margin-top: 50px;
 }
 
 .aGallery:hover {

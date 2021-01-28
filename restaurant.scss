@@ -5,10 +5,10 @@
         size: normal;
         weight: normal;
     }
-    src:url('assets/fonts/caviarDreams/CaviarDreams.ttf') format('truetype'),
-        url('assets/fonts/caviarDreams/CaviarDreams_Bold.ttf') format('truetype'),
-        url('assets/fonts/caviarDreams/CaviarDreams_BoldItalic.ttf') format('truetype'),
-        url('assets/fonts/caviarDreams/CaviarDreams_Italic.ttf') format('truetype');
+    src:url('../assets/fonts/caviarDreams/CaviarDreams.ttf') format('truetype'),
+        url('../assets/fonts/caviarDreams/CaviarDreams_Bold.ttf') format('truetype'),
+        url('../assets/fonts/caviarDreams/CaviarDreams_BoldItalic.ttf') format('truetype'),
+        url('../assets/fonts/caviarDreams/CaviarDreams_Italic.ttf') format('truetype');
 }
 
 body{
@@ -52,20 +52,8 @@ lg: 992px,
 xl: 1200px,
 xxl: 1400px
 );
-// Header
 
-// SASS options
-$font-title : Asap, Arial , sans-serif;
-$display-font-sizes: (
-1: 5rem,
-2: 4.5rem,
-3: 4rem,
-4: 3.5rem,
-5: 3rem,
-6: 2.5rem
-);
-
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 768px) {
 
 /* For mobile phones: */
 
@@ -77,7 +65,6 @@ $display-font-sizes: (
 
 a{
     color: black;
-    font-family: $font-title;
     text-decoration:none;
     &:hover{
         color: #c2003c;
@@ -90,19 +77,21 @@ p{
 h1{
     padding-top: 1em;
     text-align: center;
+    font-family: 'Caviar Dreams';
+    font-weight: bold;
 }
 img{
     padding: 0.5em;
 }
-}
+// }
 
-@media only screen and (max-width: 992px) {
+/* @media only screen and (max-width: 992px) {
 
     /* For mobile phones: */
     
     // header 
     
-    #goTitle{
+    /*#goTitle{
         padding-top: 3em;
     }
     
@@ -127,13 +116,13 @@ img{
     }
 }
 
-@media only screen and (max-width: 1200px) {
+// @media only screen and (max-width: 1200px) {
 
     /* For mobile phones: */
     
     // header 
     
-    #goTitle{
+    /* #goTitle{
         padding-top: 3em;
     }
     
@@ -156,4 +145,4 @@ img{
     img{
         padding: 0.5em;
     }
-    }
+    }) */

@@ -18,7 +18,7 @@
 
 body {
     font-family: 'Work', sans-serif;
-    background-image: url('../img/background.jpg');
+    background-image: url('../img/background.png');
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -60,6 +60,13 @@ a {
     background: none;
     border: none;
     color: white;
+}
+
+
+/*Pagination*/
+
+#picture2 {
+    display: none;
 }
 
 @media (max-width: 575.98px) {

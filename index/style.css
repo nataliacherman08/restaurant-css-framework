@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'Caviar Dreams';
+  font-size: normal;
+  font-weight: normal;
+  src: url("assets/fonts/CaviarDreams.ttf") format("truetype"), url("assets/fonts/CaviarDreams_Bold.ttf") format("truetype"), url("assets/fonts/CaviarDreams_BoldItalic.ttf") format("truetype"), url("assets/fonts/CaviarDreams_Italic.ttf") format("truetype");
+}
+
+body {
+  background-image: url("https://images5.alphacoders.com/379/thumb-1920-379572.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Caviar Dreams';
+  color: #000;
+}
+
+.logo {
+  width: 50px;
+}
+
+ul {
+  margin: auto;
+}
+
+a {
+  font-size: 1em;
+  margin-right: 1em;
+}
+
+.jumbotron {
+  background-image: url("assets/gallery/index/jumbotron/sushi1.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: #000;
+  border-radius: 0px !important;
+  margin-top: 76px;
+}
+
+.jumbotron .intro {
+  padding-top: 70px;
+  padding-bottom: 150px;
+  background-color: rgba(255, 255, 255, 0.6);
+  line-height: 1.5em;
+}
+
+.promotions {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-top: 5px solid #c2003c;
+  border-bottom: 5px solid #c2003c;
+  color: #fff;
+  padding: 40px 40px 50px 60px;
+}
+
+.aGallery {
+  text-decoration: none;
+  color: #fff;
+}
+
+.aGallery:hover {
+  color: #c2003c;
+}
+
+.linkFooter {
+  text-decoration: none;
+}
+
+.socialNetworks {
+  width: 30px;
+}
+/*# sourceMappingURL=style.css.map */

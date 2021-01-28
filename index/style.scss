@@ -5,10 +5,10 @@
         size: normal;
         weight: normal;
     }
-    src:url('assets/fonts/CaviarDreams.ttf') format('truetype'),
-        url('assets/fonts/CaviarDreams_Bold.ttf') format('truetype'),
-        url('assets/fonts/CaviarDreams_BoldItalic.ttf') format('truetype'),
-        url('assets/fonts/CaviarDreams_Italic.ttf') format('truetype');
+    src:url('../assets/fonts/CaviarDreams.ttf') format('truetype'),
+        url('../assets/fonts/CaviarDreams_Bold.ttf') format('truetype'),
+        url('../assets/fonts/CaviarDreams_BoldItalic.ttf') format('truetype'),
+        url('../assets/fonts/CaviarDreams_Italic.ttf') format('truetype');
 }
 
 $red: #c2003c;
@@ -50,7 +50,7 @@ a
 .jumbotron
 {
     background: {
-        image: url('assets/gallery/index/jumbotron/sushi1.jpg');
+        image: url('../assets/gallery/index/jumbotron/sushi1.jpg');
         size: cover;
         position: center;
     }

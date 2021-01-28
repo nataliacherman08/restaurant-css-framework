@@ -2,7 +2,7 @@
   font-family: 'Caviar Dreams';
   font-size: normal;
   font-weight: normal;
-  src: url("assets/fonts/CaviarDreams.ttf") format("truetype"), url("assets/fonts/CaviarDreams_Bold.ttf") format("truetype"), url("assets/fonts/CaviarDreams_BoldItalic.ttf") format("truetype"), url("assets/fonts/CaviarDreams_Italic.ttf") format("truetype");
+  src: url("../assets/fonts/CaviarDreams.ttf") format("truetype"), url("../assets/fonts/CaviarDreams_Bold.ttf") format("truetype"), url("../assets/fonts/CaviarDreams_BoldItalic.ttf") format("truetype"), url("../assets/fonts/CaviarDreams_Italic.ttf") format("truetype");
 }
 
 body {
@@ -31,7 +31,7 @@ a {
 }
 
 .jumbotron {
-  background-image: url("assets/gallery/index/jumbotron/sushi1.jpg");
+  background-image: url("../assets/gallery/index/jumbotron/sushi1.jpg");
   background-size: cover;
   background-position: center;
   height: 100vh;

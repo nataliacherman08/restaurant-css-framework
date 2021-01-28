@@ -155,20 +155,6 @@ a
 //    position: absolute;
 //}
 
-.row
-{
-    background-color: #000000 ;
-    opacity: 0.5;
-    font-size: 25px;
-    color: #fff;
-}
-
-.logo
-{
-    width: 200px ;
-    height: 200px;
-}
-
 .text-center
 {
     text-align: center;
@@ -176,7 +162,34 @@ a
 
 .menu
 {
-    margin-top: 100px;
+    background-color: #000000 ;
+    opacity: 0.5;
+    font-size: 25px;
+    color: #fff;
+    margin-top: 20px;
+    width: 100%;
 }
 
+.food
+{
+    
+    padding-top: 60px;
+}
 
+.ramen
+{
+    width: 400px;
+    height: 400px;
+    position:absolute;
+    top:150px;
+    left: 650px;
+}
+
+/*.sushi
+{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 150px;
+    left: 550px;
+}*/

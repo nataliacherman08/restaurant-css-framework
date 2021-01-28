@@ -50,7 +50,7 @@ a
 .jumbotron
 {
     background: {
-        image: url('assets/index/jumbotron/sushi1.jpg');
+        image: url('assets/gallery/index/jumbotron/sushi1.jpg');
         size: cover;
         position: center;
     }
@@ -72,8 +72,8 @@ a
 {
     background-color: rgba(0, 0, 0, 0.7);
     color: $white;
-    padding-top: 40px;
-    padding-right: 60px;
+    padding: 40px 60px 50px 40px;
+
 }
 
 //FOOTER

@@ -175,25 +175,10 @@ a
     
     padding-top: 60px;
 }
-
-@media (max-width:1200px) {
-    img#ramen {
-      display: none;
-    }
-  }
-
-.ramen
-{
-    width: 400px;
-    height: 400px;
-    position:absolute;
-    top:50px;
-    left: 600px;
-}
 .sushi
 {
     width: 100%;
-    opacity: 01;
+    opacity: 1;
     position: absolute;
     bottom: 700px;
 }
@@ -202,8 +187,8 @@ li
 {
     list-style: none ;
 }
-p
 
+footer
 {
-    font-family:url('assets\fonts\caviarDreams\CaviarDreams_Bold.ttf') ;
+    color: black;
 }

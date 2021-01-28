@@ -75,7 +75,15 @@ a
     border-bottom: 5px solid $red;
     color: $white;
     padding: 40px 40px 50px 60px;
+}
 
+.aGallery
+{
+    text-decoration: none;
+    color: $white;
+    &:hover {
+        color: $red;
+    }
 }
 
 //FOOTER

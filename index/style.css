@@ -55,6 +55,15 @@ a {
   padding: 40px 40px 50px 60px;
 }
 
+.aGallery {
+  text-decoration: none;
+  color: #fff;
+}
+
+.aGallery:hover {
+  color: #c2003c;
+}
+
 .linkFooter {
   text-decoration: none;
 }

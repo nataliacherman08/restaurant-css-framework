@@ -67,38 +67,39 @@ a
     }
 }*/
 
+//CAROUSEL
+#carouselCaptions
+{
+    margin-top: 75px;
+}
+
+.carousel-caption
+{
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 310px 80px 310px 80px;
+    h1
+    {
+        color: $black;
+        font-weight: bold;
+        margin: 80px 0 80px 0;
+    }
+
+    h2
+    {
+        color: $red;
+        font: {
+            weight: bold;
+            size: 2.5em;
+        }
+    }
+}
+
+//FOOTER
 .linkFooter {
     text-decoration: none;
   }
 
 .socialNetworks
 {
-    width: 40px;
-}
-
-#carouselCaptions
-{
-    margin-top: 75px;
-}
-
-// MEDIA QUERIES
-
-@media only screen and (max-width: 1199px)
-{
-
-}
-
-@media only screen and (max-width: 991px)
-{
-    
-}
-
-@media only screen and (max-width: 767px)
-{
-    
-}
-
-@media only screen and (max-width: 575px)
-{
-    
+    width: 30px;
 }

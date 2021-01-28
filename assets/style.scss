@@ -176,6 +176,12 @@ a
     padding-top: 60px;
 }
 
+@media (max-width:1200px) {
+    img#ramen {
+      display: none;
+    }
+  }
+
 .ramen
 {
     width: 400px;
@@ -186,8 +192,18 @@ a
 }
 .sushi
 {
-    width: 200%;
+    width: 100%;
     opacity: 01;
     position: absolute;
     top: 700px;
+}
+
+li
+{
+    list-style: none ;
+}
+p
+
+{
+    font-family:url('assets\fonts\caviarDreams\CaviarDreams_Bold.ttf') ;
 }

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*body
 {
     background-image: url("https://images4.alphacoders.com/113/thumb-1920-113576.jpg");
@@ -149,6 +150,12 @@ a {
   padding-top: 60px;
 }
 
+@media (max-width: 1200px) {
+  img#ramen {
+    display: none;
+  }
+}
+
 .ramen {
   width: 400px;
   height: 400px;
@@ -158,9 +165,17 @@ a {
 }
 
 .sushi {
-  width: 200%;
+  width: 100%;
   opacity: 01;
   position: absolute;
   top: 700px;
+}
+
+li {
+  list-style: none;
+}
+
+p {
+  font-family: url("assetsontsÊviarDreamsÊviarDreams_Bold.ttf");
 }
 /*# sourceMappingURL=style.css.map */

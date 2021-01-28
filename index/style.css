@@ -49,6 +49,14 @@ a {
         line-height: 1.5em;
     }
 }*/
+.linkFooter {
+  text-decoration: none;
+}
+
+.socialNetworks {
+  width: 40px;
+}
+
 #carouselCaptions {
   margin-top: 75px;
 }

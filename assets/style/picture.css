@@ -27,10 +27,6 @@ body footer {
   color: rgba(0, 0, 0, 0.5);
 }
 
-.logo {
-  width: 50px;
-}
-
 ul {
   margin: auto;
 }
@@ -52,6 +48,11 @@ a {
   opacity: 1;
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
+}
+
+.logo {
+  width: 50px;
+  padding: 0;
 }
 
 /* Color page*/

@@ -84,12 +84,14 @@ a {
   margin: 50px 0 40px 60px;
 }
 
-footer a {
+.contact {
+  text-decoration: none;
+  color: #000;
   font-size: 0.9em;
 }
 
-.linkFooter {
-  text-decoration: none;
+.contact:hover {
+  color: #c2003c;
 }
 
 .socialNetworks {

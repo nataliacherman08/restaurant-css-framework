@@ -67,6 +67,16 @@ a
     }
 }
 
+.about
+{
+    text-decoration: none;
+    color: $black;
+    font-size: 1.2em;
+    &:hover {
+        color: $red;
+    }
+}
+
 //CAROUSELS
 
 .promotions

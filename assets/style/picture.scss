@@ -23,15 +23,10 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-color: #464646;
     color: white;
     footer {
         color: rgba(0, 0, 0, .5);
     }
-}
-
-.logo {
-    width: 50px;
 }
 
 ul {
@@ -52,6 +47,12 @@ a {
 .zoom img:hover {
     opacity: 1;
     transform: scale(1.2);
+}
+
+.logo {
+    width: 50px;
+    padding: 0;
+    margin: 0;
 }
 
 

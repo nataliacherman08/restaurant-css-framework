@@ -19,16 +19,13 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-color: #464646;
   color: white;
+  margin: 0px;
+  padding: 0px;
 }
 
 body footer {
   color: rgba(0, 0, 0, 0.5);
-}
-
-.logo {
-  width: 50px;
 }
 
 ul {
@@ -52,6 +49,12 @@ a {
   opacity: 1;
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
+}
+
+.logo {
+  width: 50px;
+  padding: 0;
+  margin: 0;
 }
 
 /* Color page*/

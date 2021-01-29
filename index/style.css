@@ -47,6 +47,16 @@ a {
   line-height: 1.5em;
 }
 
+.about {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.2em;
+}
+
+.about:hover {
+  color: #c2003c;
+}
+
 .promotions {
   background-color: rgba(0, 0, 0, 0.7);
   border-top: 5px solid #c2003c;

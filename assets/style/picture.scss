@@ -49,6 +49,14 @@ a {
     transform: scale(1.2);
 }
 
+.myhover {
+    color: black;
+}
+
+.myhover:hover {
+    color: #c2003c;
+}
+
 .logo {
     width: 50px;
     padding: 0;

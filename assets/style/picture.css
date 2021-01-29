@@ -20,8 +20,6 @@ body {
   background-attachment: fixed;
   background-size: cover;
   color: white;
-  margin: 0px;
-  padding: 0px;
 }
 
 body footer {
@@ -49,6 +47,14 @@ a {
   opacity: 1;
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
+}
+
+.myhover {
+  color: black;
+}
+
+.myhover:hover {
+  color: #c2003c;
 }
 
 .logo {

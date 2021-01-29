@@ -73,10 +73,14 @@ footer {
 }
 
 .maki {
-  width: 100px;
+  width: 50px;
 }
 
-.menu-title {
-  font-weight: 10px;
+#menu-title {
+  font-weight: 100;
+}
+
+.temaki {
+  width: 50px;
 }
 /*# sourceMappingURL=menu.css.map */

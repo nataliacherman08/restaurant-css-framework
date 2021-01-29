@@ -2,7 +2,7 @@
   font-family: 'Caviar Dreams';
   font-size: normal;
   font-weight: normal;
-  src: url("assets/fonts/caviarDreams/CaviarDreams.ttf") format("truetype"), url("assets/fonts/caviarDreams/CaviarDreams_Bold.ttf") format("truetype"), url("assets/fonts/caviarDreams/CaviarDreams_BoldItalic.ttf") format("truetype"), url("assets/fonts/caviarDreams/CaviarDreams_Italic.ttf") format("truetype");
+  src: url("../fonts/CaviarDreams.ttf") format("truetype"), url("../fonts/CaviarDreams_Bold.ttf") format("truetype"), url("../fonts/CaviarDreams_BoldItalic.ttf") format("truetype"), url("../fonts/CaviarDreams_Italic.ttf") format("truetype");
 }
 
 body {
@@ -28,40 +28,6 @@ a {
   margin-right: 1em;
 }
 
-/*.menu
-{
-    background-color: #000000 ;
-    opacity: 0.5;
-    font-size: 25px;
-    color: #fff;
-    margin-top: 75px;
-    width: 100%;
-}
-
-.food
-{
-    
-    padding-top: 60px;
-}
-.sushi
-{
-    width: 100%;
-    opacity: 0.5;
-    position: sticky;
-    //top: 700px;
-}
-
-li
-{
-    list-style: none ;
-}
-
-
-.tittle-menu
-{
-    font-weight: 100;
-    font-size: 35px;
-}*/
 .container {
   margin-top: 50px;
 }

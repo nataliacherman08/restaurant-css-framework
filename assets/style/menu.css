@@ -39,10 +39,6 @@ a {
   color: #fff;
 }
 
-.section {
-  margin-top: 90px;
-}
-
 .pancarte {
   width: 50px;
 }
@@ -86,6 +82,14 @@ footer {
 }
 
 .temaki {
+  width: 50px;
+}
+
+.hot-meal {
+  width: 50px;
+}
+
+.dessert {
   width: 50px;
 }
 /*# sourceMappingURL=menu.css.map */

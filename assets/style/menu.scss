@@ -18,6 +18,7 @@ $black: #000;
 
 body
 {
+    font-family: 'Caviar Dreams';
     background-image: url("https://images5.alphacoders.com/379/thumb-1920-379572.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -68,6 +69,11 @@ a
     width: 50px;
 }
 
+.maki
+{
+    width: 30px;
+}
+
 .ramen
 {
     width: 200px;
@@ -104,10 +110,15 @@ footer
 
 .maki
 {
-    width: 100px;
+    width: 50px;
 }
 
-.menu-title
+#menu-title
 {
-    font-weight: 10px;
+    font-weight: 100;
+}
+
+.temaki
+{
+    width: 50px;
 }

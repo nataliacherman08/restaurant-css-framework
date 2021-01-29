@@ -52,8 +52,7 @@ h1 {
   padding-top: 1em;
   text-align: center;
   font-family: 'Caviar Dreams';
-  font-weight: bold;
-  color: black;
+  color: white;
 }
 
 #goLogo {
@@ -81,6 +80,22 @@ h1 {
   width: 30px;
 }
 
+#shedules {
+  font-size: 1em;
+}
+
+#pad-top {
+  padding-top: 3em;
+}
+
+#pad-bot {
+  padding-top: 3em;
+}
+
+h3 {
+  color: white;
+}
+
 @media only screen and (max-width: 768px) {
   p {
     font-size: 1em;
@@ -99,6 +114,9 @@ h1 {
   #pics:hover {
     width: 25em;
     opacity: 1;
+  }
+  #shedules {
+    font-size: 0.75em;
   }
 }
 /*# sourceMappingURL=restaurant.css.map */

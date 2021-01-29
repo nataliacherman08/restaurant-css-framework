@@ -6,6 +6,7 @@
 }
 
 body {
+  font-family: 'Caviar Dreams';
   background-image: url("https://images5.alphacoders.com/379/thumb-1920-379572.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -38,12 +39,12 @@ a {
   color: #fff;
 }
 
-.section {
-  margin-top: 90px;
-}
-
 .pancarte {
   width: 50px;
+}
+
+.maki {
+  width: 30px;
 }
 
 .ramen {
@@ -73,10 +74,22 @@ footer {
 }
 
 .maki {
-  width: 100px;
+  width: 50px;
 }
 
-.menu-title {
-  font-weight: 10px;
+#menu-title {
+  font-weight: 100;
+}
+
+.temaki {
+  width: 50px;
+}
+
+.hot-meal {
+  width: 50px;
+}
+
+.dessert {
+  width: 50px;
 }
 /*# sourceMappingURL=menu.css.map */

@@ -93,11 +93,27 @@ footer {
   width: 50px;
 }
 
-.maki-2 {
+a {
+  color: #c2003c;
+}
+
+#chicken {
+  width: 80px;
+}
+
+#tuna {
+  width: 50px;
+}
+
+#salmon {
   width: 100px;
 }
 
-a {
-  color: #c2003c;
+#surimi {
+  width: 100px;
+}
+
+#speciality {
+  width: 50px;
 }
 /*# sourceMappingURL=menu.css.map */

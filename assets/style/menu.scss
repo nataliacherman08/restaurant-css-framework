@@ -5,10 +5,10 @@
         size: normal;
         weight: normal;
     }
-    src:url('assets/fonts/caviarDreams/CaviarDreams.ttf') format('truetype'),
-        url('assets/fonts/caviarDreams/CaviarDreams_Bold.ttf') format('truetype'),
-        url('assets/fonts/caviarDreams/CaviarDreams_BoldItalic.ttf') format('truetype'),
-        url('assets/fonts/caviarDreams/CaviarDreams_Italic.ttf') format('truetype');
+    src:url('../fonts/CaviarDreams.ttf') format('truetype'),
+        url('../fonts/CaviarDreams_Bold.ttf') format('truetype'),
+        url('../fonts/CaviarDreams_BoldItalic.ttf') format('truetype'),
+        url('../fonts/CaviarDreams_Italic.ttf') format('truetype');
 }
 
 
@@ -45,40 +45,6 @@ a
 }
 
 
-/*.menu
-{
-    background-color: #000000 ;
-    opacity: 0.5;
-    font-size: 25px;
-    color: #fff;
-    margin-top: 75px;
-    width: 100%;
-}
-
-.food
-{
-    
-    padding-top: 60px;
-}
-.sushi
-{
-    width: 100%;
-    opacity: 0.5;
-    position: sticky;
-    //top: 700px;
-}
-
-li
-{
-    list-style: none ;
-}
-
-
-.tittle-menu
-{
-    font-weight: 100;
-    font-size: 35px;
-}*/
 
 //MENU
 .container
@@ -88,16 +54,10 @@ li
 
 .card-columns 
 {
-    column-count: 1;
+    column-count: 2;
+    color: $white;
 }
 
-.socialNetworks
-{
-    width: 50px;
-}
-
-
-//MENU
 .section
 {
     margin-top: 90px;
@@ -113,15 +73,11 @@ li
     width: 200px;
 }
 
-.card-columns
-{
-    column-count: 2;
-}
 
 li
 {
     list-style-type: none;
-    line-height: 3em;
+    line-height: 3.5em;
 }
 
 //FOOTER

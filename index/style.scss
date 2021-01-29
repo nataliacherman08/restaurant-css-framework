@@ -112,14 +112,14 @@ a
     margin: 50px 0 40px 60px;
 }
 
-footer a 
-{
-    font-size: 0.9em;
-}
-
-.linkFooter 
+.contact
 {
     text-decoration: none;
+    color: $black;
+    font-size: 0.9em;
+    &:hover {
+        color: $red;
+    }
 }
 
 .socialNetworks

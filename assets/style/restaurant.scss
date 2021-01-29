@@ -66,8 +66,7 @@ h1{
     padding-top: 1em;
     text-align: center;
     font-family: 'Caviar Dreams';
-    font-weight: bold;
-    color: black;
+    color: white
 }
 #goLogo{
     padding-top: 3em;
@@ -89,6 +88,14 @@ h1{
     width: 30px;
 }
 
+#shedules{
+    font-size: 1em;
+}
+
+h3{
+    color: white;
+}
+
 @media only screen and (max-width: 768px) {
     p{
         font-size: 1em;
@@ -105,5 +112,8 @@ h1{
             width: 25em;
             opacity: 1;
         }
+    }
+    #shedules{
+        font-size: 0.75em;
     }
 }

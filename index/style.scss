@@ -75,13 +75,14 @@ a
     border-top: 5px solid $red;
     border-bottom: 5px solid $red;
     color: $white;
-    padding: 50px 0 50px 0;
+    padding: 70px 0 100px 0;
 }
 
 .titrePromo
 {
     margin-bottom: 50px;
 }
+
 
 .aGallery
 {
@@ -95,6 +96,11 @@ a
 }
 
 //FOOTER
+footer a 
+{
+    font-size: 0.9em;
+}
+
 .linkFooter 
 {
     text-decoration: none;

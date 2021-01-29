@@ -52,7 +52,7 @@ a {
   border-top: 5px solid #c2003c;
   border-bottom: 5px solid #c2003c;
   color: #fff;
-  padding: 50px 0 50px 0;
+  padding: 70px 0 100px 0;
 }
 
 .titrePromo {
@@ -67,6 +67,10 @@ a {
 
 .aGallery:hover {
   color: #c2003c;
+}
+
+footer a {
+  font-size: 0.9em;
 }
 
 .linkFooter {

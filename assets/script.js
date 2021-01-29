@@ -19,4 +19,12 @@ function ShowPage3() {
 
 }
 
+function validation() {
+    let name = document.myform.name.value;
+    if (name == null || name == "") {
+        alert("You have to right a name ! ");
+        return false;
+
+    }
+}
 window.onload = ShowPage1;

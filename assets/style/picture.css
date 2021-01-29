@@ -20,6 +20,8 @@ body {
   background-attachment: fixed;
   background-size: cover;
   color: white;
+  margin: 0px;
+  padding: 0px;
 }
 
 body footer {

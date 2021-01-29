@@ -31,12 +31,8 @@ ul {
 }
 
 a {
-  color: black;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #c2003c;
+  font-size: 1em;
+  margin-right: 1em;
 }
 
 .zoom img {
@@ -51,6 +47,14 @@ a:hover {
   opacity: 1;
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
+}
+
+.myhover {
+  color: black;
+}
+
+.myhover:hover {
+  color: #c2003c;
 }
 
 .logo {

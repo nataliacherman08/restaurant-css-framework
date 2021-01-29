@@ -69,6 +69,11 @@ a {
   color: #c2003c;
 }
 
+.footerLogo {
+  width: 150px;
+  margin: 50px 0 40px 60px;
+}
+
 footer a {
   font-size: 0.9em;
 }

@@ -9,6 +9,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="responsive exercices: breakpoints">
     <link rel="stylesheet" href="contact.css" />
+    <script>
+        function validation() {
+            let name = document.myform.name.value;
+            let email = document.myform.email.value;
+            let at = email.indexof("@");
+
+            if (name == null || name == "") {
+                alert("You have to right a name ! ");
+                return false;
+
+            } else if (at < 1 || email.length < 15) {
+                alert("You have to right a valid email address like : abcde@gmail.com");
+                return false;
+            }
+        }
+    </script>
     <title>Contact</title>
 </head>
 
@@ -18,7 +34,7 @@
         <header>
             <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#"><img class="logo" src="../assets/logo.png" alt="logo" /></a>
+                    <a class="navbar-brand" href="../index.html"><img class="logo" src="../assets/logo.png" alt="logo" /></a>
 
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContentAltMarkup" aria-controls="navbarSupportedContentAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -43,9 +59,8 @@
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link" href="/contact/contact.html">CONTACT</a>
+                                <a class="nav-link" href="contact.html">CONTACT</a>
                             </li>
-
                         </ul>
                     </div>
                 </div>
@@ -53,7 +68,7 @@
         </header>
 
         <!--FORMS-->
-        <form name="myform" method="post" action="../index.html">
+        <form name="myform" method="post" action="../index.html" onsubmit="return validation()">
             <div class="container contact-form">
                 <h1>Contact us</h1>
                 <hr />
@@ -67,12 +82,12 @@
                     <div class="col-md-6">
                         <div class="form-group">
                             <label>Name</label>
-                            <input type="text" class="form-control" required>
+                            <input type="text" class="form-control" name="name" id="name">
                         </div>
 
                         <div class="form-group">
                             <label>Email</label>
-                            <input type="email" class="form-control" required>
+                            <input type="email" class="form-control" name="email" id="email">
                         </div>
 
                         <div class="form-group">

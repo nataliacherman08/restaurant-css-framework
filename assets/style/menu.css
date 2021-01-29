@@ -67,12 +67,9 @@ li
 }
 
 .card-columns {
-  -webkit-column-count: 1;
-          column-count: 1;
-}
-
-.socialNetworks {
-  width: 50px;
+  -webkit-column-count: 2;
+          column-count: 2;
+  color: #fff;
 }
 
 .section {
@@ -87,14 +84,9 @@ li
   width: 200px;
 }
 
-.card-columns {
-  -webkit-column-count: 2;
-          column-count: 2;
-}
-
 li {
   list-style-type: none;
-  line-height: 3em;
+  line-height: 3.5em;
 }
 
 footer {

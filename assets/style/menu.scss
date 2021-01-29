@@ -88,16 +88,10 @@ li
 
 .card-columns 
 {
-    column-count: 1;
+    column-count: 2;
+    color: $white;
 }
 
-.socialNetworks
-{
-    width: 50px;
-}
-
-
-//MENU
 .section
 {
     margin-top: 90px;
@@ -113,15 +107,11 @@ li
     width: 200px;
 }
 
-.card-columns
-{
-    column-count: 2;
-}
 
 li
 {
     list-style-type: none;
-    line-height: 3em;
+    line-height: 3.5em;
 }
 
 //FOOTER
